@@ -10,6 +10,7 @@ Die Bewertung erfolgt in fünf Kategorien:
 -	Bild & Ton
 -	Unterhaltung
 
+
 Für jede Kategorie vergibt man 1 bis 5 Sterne. Aus den Einzelwertungen wird anschließend eine Gesamtnote berechnet. Diese wird gemeinsam mit dem Titel in der Datenbank gespeichert.
 Im Bereich „Ranking“ sieht man alle bereits bewerteten Titel – wahlweise nur Filme, nur Serien oder beides gemischt. Die Liste ist nach der eigenen Bewertung sortiert, sodass man sofort erkennt, welche Titel für einen selbst ganz oben stehen. Ein zusätzlicher Bereich zeigt aktuelle Neuerscheinungen an, um den Nutzer regelmäßig auf dem Laufenden zu halten und neue Denkanstöße zu geben, was sein nächster Film oder seine nächste Serie sein könnte.
 
@@ -19,6 +20,7 @@ Verwendete Technologien:
 -	Datenbank: MySQL oder H2 mit Zugriff über JPA
 -	API: TMDB oder ähnliche Film-/Serien-API   
 -	Kommunikation: HTTP mit JSON zwischen Frontend und Backend
+  
 
 Herausforderungen:
 -	Saubere Trennung von Frontend und Backend bei der API-Nutzung
